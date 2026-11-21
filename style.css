@@ -150,13 +150,16 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  min-height: 96vh;
+  height: auto;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
 }
 
 .section-container {
+  gap: 4rem;
+  min-height: 80%;
+  height: auto;
   display: flex;
 }
 
@@ -269,6 +272,7 @@ img {
 
 #about {
   position: relative;
+  padding-bottom: 4rem;
 }
 
 .about-containers {
@@ -307,11 +311,6 @@ img {
   text-align: center;
 }
 
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
-
 .section__pic-container {
   height: 400px;
   width: 400px;
@@ -322,6 +321,7 @@ img {
 
 #experience {
   position: relative;
+  padding-top: 4rem;
 }
 
 .experience-sub-title {
